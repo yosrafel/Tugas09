@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proteintracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:5:5-35:19
+12        android:allowBackup="true"
+12-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\M.S.I\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.proteintracker.DaftarTemanActivity" >
+21-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:12:19-54
+22            <intent-filter>
+22-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:14:17-69
+23-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:16:17-77
+25-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.example.proteintracker.InClassRecyclerView" >
+28-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:19:9-20:20
+28-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:19:19-54
+29        </activity>
+30        <activity android:name="com.example.proteintracker.RecyclerViewActivity" />
+30-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:21:9-58
+30-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:21:19-55
+31        <activity android:name="com.example.proteintracker.KelolaMhsActivity" />
+31-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:22:9-55
+31-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:22:19-52
+32        <activity android:name="com.example.proteintracker.MahasiswaEditActivity" />
+32-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:23:9-59
+32-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:23:19-56
+33        <activity android:name="com.example.proteintracker.MahasiswaAddActivity" />
+33-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:24:9-58
+33-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:24:19-55
+34        <activity android:name="com.example.proteintracker.SampleList" />
+34-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:25:9-48
+34-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:25:19-45
+35        <activity android:name="com.example.proteintracker.MahasiswaActivity" />
+35-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:26:9-55
+35-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:26:19-52
+36        <activity android:name="com.example.proteintracker.Mahasiswa1Fragment" />
+36-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:27:9-56
+36-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:27:19-53
+37        <activity android:name="com.example.proteintracker.ProteinTrackerApp" />
+37-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:28:9-55
+37-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:28:19-52
+38        <activity android:name="com.example.proteintracker.Table" />
+38-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:29:9-43
+38-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:29:19-40
+39        <activity android:name="com.example.proteintracker.Main3FragmentActivity" />
+39-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:30:9-59
+39-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:30:19-56
+40        <activity android:name="com.example.proteintracker.Text" />
+40-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:31:9-42
+40-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:31:19-39
+41        <activity android:name="com.example.proteintracker.Test" />
+41-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:32:9-42
+41-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:32:19-39
+42        <activity android:name="com.example.proteintracker.HelpActivity" />
+42-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:33:9-50
+42-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:33:19-47
+43        <activity android:name="com.example.proteintracker.MainActivity" />
+43-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:34:9-50
+43-->D:\GOBLOK\Rafel\KULIAH\Semester 5\Progmob\Android Studio Project\ProteinTracker\app\src\main\AndroidManifest.xml:34:19-47
+44    </application>
+45
+46</manifest>
